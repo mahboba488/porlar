@@ -1,0 +1,84 @@
+#review{
+
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    background: url(../../image/ice/anna-bratiychuk-3w2AuRZeeSU-unsplash.jpg),linear-gradient(rgb(247, 186, 239),rgb(248, 67, 218)) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: screen;
+    position: relative;
+
+    
+
+    .heading{
+        @include heading();
+        padding-top: 7rem;
+        color: #7f0217;
+        font-weight: 500;
+
+        &::after{
+            background:#b20909;
+        }
+    }
+
+    .box-container{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .review-slider{
+            .box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .image{
+                margin-top: 10rem;
+                margin-left: 3rem;
+
+                img{
+                    height: 10rem;
+                    width: 10rem;
+                    border-radius: 50% 50% 50% 50%;
+                    border: .5rem solid $cherry;
+                }
+            }
+
+            .comment{
+                height: 20rem;
+                width: 45rem;
+                background: #f0c5dc;
+                border-radius: 2% 2% 0% 40%;
+                padding-top: 2rem;
+            }
+
+            p{
+                color: #7f0217;
+                font-size: 1.2rem;
+                padding: 2rem;
+
+                i{
+                    color: #60260d;
+                    font-size: 2rem;
+                    padding: 0rem .5rem;
+                }
+            }
+
+            h3{
+                text-align: end;
+                color: #7f0217;
+                margin: 2rem 2rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+}

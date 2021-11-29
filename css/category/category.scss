@@ -1,0 +1,168 @@
+#product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 100vw;
+
+    .heading{
+        @include heading();
+    }
+
+    .category-container{
+        width: 90%;
+
+        .owl-nav{
+            .owl-next, .owl-prev{
+                position: absolute;
+                top:50%;
+                transform: translateY(-50%);
+                color: #7f0217;
+                font-size: 6rem;
+                background: none;
+                border: none;
+                outline: none;
+            }
+
+            .owl-next{
+                right: 1rem;
+            }
+
+            .owl-prev{
+                left: 1rem;
+            }
+        }
+
+        .title{
+            font-size: 3rem;
+            color: #644262;
+            margin-top: 5rem;
+            margin-top: 5rem;
+            margin-left: 6rem;
+        }
+
+        .category-slider{
+            .category-card{
+                height: 40rem;
+                width: 30rem;
+                margin: 2rem auto;
+                box-shadow: 0 0 .9rem $vanilla ;
+                border-radius: .5rem;
+                position: relative;
+
+                .image{
+                    height: 75%;
+                    width: 100%;
+
+                    img{
+                        height: 100%;
+                        width: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .content{
+                    height: 25%;
+                    width: 100%;
+                    text-align: center;
+
+
+                    h3{
+                        font-size: 3rem;
+                        color: #7f0217;
+
+                    }
+
+                    .starts{
+                        i{
+                            color: #c0c0c0;
+                        font-size: 1.5rem;
+
+                        }
+                    }
+
+
+                    .price{
+                        font-size: 2rem;
+                        color: #60260d;
+                    }
+                }
+
+                .info{
+                    position: absolute;
+                    top:0;
+                    left: 0;
+                    height: 100%;
+                    width: 100%;
+                    background: #60260d;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-flow: column;
+                    transition-delay: .2s;
+                    opacity: .9;
+                    transform: scale(0);
+                }
+
+                h4{
+                    font-size: 4rem;
+                    color: $vanilla;
+                }
+
+                p{
+                    font-size: 1.2rem;
+                    padding: 1rem 2rem;
+                    color: $vanilla;
+                    text-align: center;
+                }
+
+                button{
+                    @include button();
+                    margin-top: 1rem;
+                    background: $vanilla;
+                    color: $cherry;
+                    font-weight: 500;
+
+
+                    &:hover{
+
+                        background: #2c0f03;
+                        color: $vanilla;
+                        
+
+                    }
+                }
+
+                .share{
+
+                    margin-top: 4rem;
+                    a{
+                        font-size: 2rem;
+                        height: 4rem;
+                        width: 4rem;
+                        line-height: 4rem;
+                        text-align: center;
+                        background: $vanilla;
+                        color: $cherry;
+                        margin: 0 .5rem;
+                        border-radius: 5rem;
+                        text-decoration: none;
+
+                        &:hover{
+                            text-decoration: none;
+                            background:$cherry; 
+                            color: $vanilla;
+                        }
+                    }
+                }
+
+                &:hover .info{
+                    transform: scale(1);
+    
+                }
+            }
+
+           
+        }
+    }
+}

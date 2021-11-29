@@ -1,0 +1,97 @@
+@media(max-width:768px ){
+
+    html{
+        font-size: 55%;
+    }
+    #home{
+        padding-bottom: 4rem;
+        .slide{
+            flex-flow: column-reverse;
+
+            .content{
+                padding: 1rem;
+                
+            }
+
+            .image{
+                img{
+                    width: 100vw;
+                }
+            }
+        }
+    }
+
+    #product{
+        .category-container{
+            .title{
+                margin-left: 0;
+                text-align: center;
+            }
+        }
+    }
+
+
+    #offer{
+        .deal{
+            flex-flow: column;
+            .image{
+                img{
+                    height: auto;
+                    width: 100%;
+                }
+            }
+
+            .content{
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media(max-width:600px){
+    #review{
+        .heading{
+            padding-top: 10rem;
+        }
+
+        .box-container{
+            .review-slider{
+                .box{
+                    position: relative;
+                    height: 50vh;
+
+                    .image{
+                        position: absolute;
+                        top: 0;
+                        margin: 0;
+
+                        img{
+                            border-radius: 5rem;
+                        }
+                    }
+
+                    .comment{
+                        border-radius: 1rem;
+                        text-align: center;
+                        width: 35rem;
+
+                        h3{
+                            text-align: center;
+                            margin-top: -2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #newsletter{
+        h1{
+            font-size: 4rem;
+        }
+
+        p{
+            font-size: 2rem;
+        }
+    }
+}

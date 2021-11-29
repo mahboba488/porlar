@@ -1,0 +1,54 @@
+#home{
+    min-height: 60vh;
+    width: 100vw;
+    background: #f0c5dc;
+
+    .slide{
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .image{
+            img{
+                width: 50vw;
+            }
+        }
+
+        .content{
+            h1{
+                font-size: 4rem;
+                color: #fff;
+
+            }
+
+            p{
+                font-size: 1.7rem;
+                color: #c66692;
+                
+            }
+            .starts{
+                margin: 1rem;
+
+                i{
+                    font-size: 1.5rem;
+                    padding-left: .4rem;
+                    color: #7f0217;
+                }
+            }
+
+            .price{
+                color: #fff;
+                font-size: 3.5rem;
+                margin: .5rem 0;
+
+            }
+
+            button{
+                @include button();
+            }
+        }
+        
+    }
+}

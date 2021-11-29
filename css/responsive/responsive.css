@@ -1,0 +1,71 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 55%;
+  }
+  #home {
+    padding-bottom: 4rem;
+  }
+  #home .slide {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse;
+            flex-flow: column-reverse;
+  }
+  #home .slide .content {
+    padding: 1rem;
+  }
+  #home .slide .image img {
+    width: 100vw;
+  }
+  #product .category-container .title {
+    margin-left: 0;
+    text-align: center;
+  }
+  #offer .deal {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+  #offer .deal .image img {
+    height: auto;
+    width: 100%;
+  }
+  #offer .deal .content {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  #review .heading {
+    padding-top: 10rem;
+  }
+  #review .box-container .review-slider .box {
+    position: relative;
+    height: 50vh;
+  }
+  #review .box-container .review-slider .box .image {
+    position: absolute;
+    top: 0;
+    margin: 0;
+  }
+  #review .box-container .review-slider .box .image img {
+    border-radius: 5rem;
+  }
+  #review .box-container .review-slider .box .comment {
+    border-radius: 1rem;
+    text-align: center;
+    width: 35rem;
+  }
+  #review .box-container .review-slider .box .comment h3 {
+    text-align: center;
+    margin-top: -2rem;
+  }
+  #newsletter h1 {
+    font-size: 4rem;
+  }
+  #newsletter p {
+    font-size: 2rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

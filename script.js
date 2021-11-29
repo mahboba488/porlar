@@ -63,8 +63,20 @@ $(document).ready(function(){
             550:{
                 items:2
             },
+
+            900:{
+
+                items:2
+
+            },
             1000:{
+                items:2
+            },
+
+            1024:{
+
                 items:3
+
             }
         }
        

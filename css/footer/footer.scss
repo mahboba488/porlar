@@ -1,0 +1,92 @@
+#footer{
+    padding: 2rem 0;
+    background: $cherry;
+    width: 100vw;
+
+    .row{
+        width: 100%;
+        margin: 0;
+    }
+
+    .brand-info{
+        margin: 1rem;
+        padding: 0;
+
+        a{
+            text-decoration: none;
+            color: #f2f0da;
+        }
+
+        i{
+            padding: 0 .5rem;
+            font-size: 2rem;
+        }
+
+        h3{
+            display: inline;
+            font-size: 2rem;
+        }
+    }
+
+    p{
+        padding: 2rem;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    .links{
+        padding: 0;
+        margin: 1rem;
+
+        h3{
+            font-size: 2rem;
+            color: #f2f0da;
+        }
+
+        .nav-links{
+            display: flex;
+            flex-flow: column;
+
+            a{
+                color: #f2f0da;
+                font-size: 1.5rem;
+                text-decoration: none;
+
+            }
+        }
+    }
+
+    .follow-us{
+        padding: 0;
+        margin: 1rem;
+
+        h3{
+            font-size: 2rem;
+            color: #f2f0da;
+        }
+
+        .follow-us-links{
+            display: flex;
+            flex-flow: column;
+
+            a{
+                color: #f2f0da;
+                font-size: 1.5rem;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .credit{
+        font-size: 2rem;
+        padding-top: 1.5rem;
+        width: 100%;
+        border-top: .01rem solid #8b041b;
+        color: #fff;
+
+        span{
+            color: #fff;
+        }
+    }
+
+}

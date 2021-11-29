@@ -1,0 +1,48 @@
+#newsletter{
+    width: 100vw;
+    background: linear-gradient(rgb(245, 245, 245),rgb(247, 164, 233)) ,url(../image/ice/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 6rem 0;
+    text-align: center;
+
+    h1{
+        font-size: 6rem;
+        color: #fff;
+    }
+
+    p{
+        font-size: 3rem;
+        color: #c66692;
+    }
+
+    input[type="text"]{
+        outline: none;
+        border: none;
+        background-color: #7f0217;
+        color: #fff;
+        height: 4rem;
+        width: 34rem;
+        border-radius: 5rem;
+        font-size: 1.5rem;
+        padding: 1.5rem;
+
+        &::placeholder{
+            color: #fff;
+        }
+    }
+
+    input[type="submit"]{
+        display: inline;
+        @include button();
+        margin: 2rem;
+        background: $vanilla;
+        color: #7f0217;
+
+        &:hover{
+            box-shadow: .4rem .4rem  #f382bf;
+        }
+
+    }
+}

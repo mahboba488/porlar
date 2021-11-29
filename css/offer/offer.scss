@@ -1,0 +1,95 @@
+#offer{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+
+    .heading{
+        @include heading();
+    }
+
+    .images{
+
+        min-height: 20vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        color: #7f0217;
+
+        .box{
+            height: 25rem;
+            width: 25rem;
+            text-align: center;
+            margin: 4rem;
+
+            h3{
+                font-size: 2.5rem;
+                margin: 1rem 0;
+            }
+
+            
+
+
+        }
+
+    }
+
+    .deal{
+        background: url(../image/ice/cone/shape3.jpg),linear-gradient(#e68c9b, #f7506c) no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-blend-mode: screen;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 0;
+        width: 100%;
+       
+
+        .images{
+            img{
+                height: 50vh;
+            }
+        }
+
+        .content{
+            text-shadow: .1rem .1rem .3rem #ffe3ae ;
+        }
+
+        h4{
+            font-weight: 600;
+            font-size: 4rem;
+            color: #9a5847;
+        }
+
+        p{
+            font-size: 2rem;
+            color: #b90d20;
+            font-weight: 600;
+        }
+
+        .starts{
+            i{
+                color: #9a5847;
+                font-size: 2rem;
+            }
+        }
+
+        .price{
+            font-weight: 700;
+            font-size: 3rem;
+            color: #b90d20;
+        }
+
+        button{
+            @include button();
+        }
+
+    }
+}
