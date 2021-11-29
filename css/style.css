@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Comforter+Brush&family=Montserrat:wght@200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@500&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
   -webkit-transition: all .2s linear;
   transition: all .2s linear;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -615,8 +616,10 @@ body {
 }
 
 #offer .deal {
-  background: url(../image/ice/cone/shape3.jpg), -webkit-gradient(linear, left top, left bottom, from(#e68c9b), to(#7f0217)) no-repeat;
-  background: url(../image/ice/cone/shape3.jpg), linear-gradient(#e68c9b, #7f0217) no-repeat;
+  background: url(../image/ice/cone/shape3.jpg), -webkit-gradient(linear, left top, left bottom, from(#e68c9b), to(#f7506c)) no-repeat;
+  background: url(../image/ice/cone/shape3.jpg), linear-gradient(#e68c9b, #f7506c) no-repeat;
+  -o-object-fit: cover;
+     object-fit: cover;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -645,24 +648,24 @@ body {
 #offer .deal h4 {
   font-weight: 600;
   font-size: 4rem;
-  color: #b8860b;
+  color: #9a5847;
 }
 
 #offer .deal p {
   font-size: 2rem;
-  color: #e20001;
+  color: #b90d20;
   font-weight: 600;
 }
 
 #offer .deal .starts i {
-  color: #b8860b;
+  color: #9a5847;
   font-size: 2rem;
 }
 
 #offer .deal .price {
   font-weight: 700;
   font-size: 3rem;
-  color: #e20001;
+  color: #b90d20;
 }
 
 #offer .deal button {

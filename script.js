@@ -57,6 +57,9 @@ $(document).ready(function(){
                 nav:true
             },
            
+            400:{
+                items:2
+            },
             550:{
                 items:2
             },
