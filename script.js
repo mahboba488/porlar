@@ -64,6 +64,12 @@ $(document).ready(function(){
                 items:2
             },
 
+            600:{
+
+                items:2
+
+            },
+
             900:{
 
                 items:2
@@ -74,6 +80,12 @@ $(document).ready(function(){
             },
 
             1024:{
+
+                items:2
+
+            },
+
+            1200:{
 
                 items:3
 
