@@ -21,6 +21,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 
 
@@ -173,9 +174,7 @@
 
     </section>
 
-     <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-            <path fill="#F0C5DC" fill-opacity="1" d="M0,256L12.6,266.7C25.3,277,51,299,76,266.7C101.1,235,126,149,152,106.7C176.8,64,202,64,227,101.3C252.6,139,278,213,303,208C328.4,203,354,117,379,117.3C404.2,117,429,203,455,213.3C480,224,505,160,531,149.3C555.8,139,581,181,606,202.7C631.6,224,657,224,682,229.3C707.4,235,733,245,758,224C783.2,203,808,149,834,133.3C858.9,117,884,139,909,165.3C934.7,192,960,224,985,213.3C1010.5,203,1036,149,1061,149.3C1086.3,149,1112,203,1137,234.7C1162.1,267,1187,277,1213,234.7C1237.9,192,1263,96,1288,74.7C1313.7,53,1339,107,1364,133.3C1389.5,160,1415,160,1427,160L1440,160L1440,0L1427.4,0C1414.7,0,1389,0,1364,0C1338.9,0,1314,0,1288,0C1263.2,0,1238,0,1213,0C1187.4,0,1162,0,1137,0C1111.6,0,1086,0,1061,0C1035.8,0,1011,0,985,0C960,0,935,0,909,0C884.2,0,859,0,834,0C808.4,0,783,0,758,0C732.6,0,707,0,682,0C656.8,0,632,0,606,0C581.1,0,556,0,531,0C505.3,0,480,0,455,0C429.5,0,404,0,379,0C353.7,0,328,0,303,0C277.9,0,253,0,227,0C202.1,0,177,0,152,0C126.3,0,101,0,76,0C50.5,0,25,0,13,0L0,0Z"></path>
-          </svg>
+   
 
     <!--============================== home section Ends ===========================-->
 
@@ -186,21 +185,27 @@
     <div class="section-padding about">
         <div class="container">
             <div class="row">
-                <div class="col-md-5 align-self-center ">
-                    
-                    <h1 class=" fw-bold display-1 m-5 text-center " style="font-weight: 600 ; color:#7f0217">About us</h1>
-                    <p class=" m-5 p-5  mt-0 " style="font-size: 15px; color:#c66692">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo quidem expedita unde tempora tenetur laborum libero fuga praesentium fugit eius, aliquid, beatae, adipisci doloremque autem! Vel at nam ullam. </p>
-
-
-                </div>
+             
 
                 <div class="col-md-7">
                     <div class="tile-gallery">
-                        <img src="image/ice/cone/istockphoto-140465688-612x612.jpg" alt="" height="400" width="400">
-                        <img src="image/ice/cone/istockphoto-1154538570-612x612.jpg" alt="" height="450" width="400">
-                        <img src="image/ice/cone/istockphoto-155283345-612x612.jpg" alt="" height="300" width="400">
+                        <img src="image/ice/cone/special1.jpg" alt="" height="400" width="400">
+                        <img src="image/ice/cone/special2.jpg" alt="" height="450" width="400">
+                        <img src="image/ice/cone/special3.jpg" alt="" height="300" width="400">
 
                     </div>
+
+                </div>
+
+                <div class="col-md-5 align-self-center ">
+                    
+                    <h1 class=" fw-bold display-1 m-5 text-center " style="font-weight: 600 ; color:#7f0217; font-family: Comforter Brush;">about us </h1>
+                    <h3 class="  text-center" style="color: #972a5b; font-weight:600">why we are best</h3>
+                    <p class=" m-5 p-5  mt-0 " style="font-size: 15px; color:#c66692">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam explicabo quidem expedita unde tempora tenetur laborum libero fuga praesentium fugit eius, aliquid, beatae, adipisci doloremque autem! Vel at nam ullam. </p>
+
+                
+
+
 
                 </div>
 
@@ -212,6 +217,123 @@
     </div>
 
     <!--============================== gallery ends ===========================-->
+
+
+
+    <!-- ================================item start===================================-->
+
+
+    <section class="portfolio" id="portfolio">
+        <div class="container  m-5 p-5">
+            <div class="row">
+                <div class="section-title col-sm-12">
+                    <h1 class=" fw-bold display-1 text-center" style="color: #7f0217;">Our special item</h1>
+                </div>
+
+                <div class="part col-sm-12">
+                    <div class="portfolio-nav col-sm-12" id="filter-button">
+                        <ul>
+                            <li data-filter="*" class="current">
+                                <span>All Categories</span>
+                            </li>
+
+                            <li data-filter=".Cream" class="current">
+                                <span>Dairy Ice Cream</span>
+                            </li>
+
+                            <li data-filter=".Yogurt" class="current">
+                                <span>Frozen Yogurt</span>
+                            </li>
+
+                            <li data-filter=".Sorbet" class="current">
+                                <span>Sorbet</span>
+                            </li>
+
+                            <li data-filter=".Sherbet" class="current">
+                                <span>Sherbet</span>
+                            </li>
+
+                        
+                        </ul>
+
+                    </div>
+
+                    <div class="project-gallery col-sm-12" id="project-gallery">
+                        <div class="portfoliocontainer row">
+                            <div class="grid-item col-md-4 Cream  p-3">
+                                <figure>
+                                    <img src="image/580b57fcd9996e24bc43c1b4.png" alt="" height="200" width="200">
+                                    
+                                </figure>
+
+                            </div>
+
+                            <div class="grid-item col-md-4 Yogurt  p-3 ">
+                                <figure>
+                                    <img src="image/11-2-ice-cream-transparent.png" alt="" height="200" width="200">
+                                   
+                                </figure>
+
+                            </div>
+
+                            <div class="grid-item col-md-4 Cream p-3" >
+                                <figure>
+                                    <img src="image/580b57fcd9996e24bc43c1b8.png" alt="" height="200" width="200">
+                                    
+                                </figure>
+
+                            </div>
+
+                            <div class="grid-item col-md-4 Cream  p-3">
+                                <figure>
+                                    <img src="image/580b57fcd9996e24bc43c1bd.png" alt="" height="200" width="200">
+                                   
+                                </figure>
+
+                            </div>
+
+                            <div class="grid-item col-md-4 Sherbet  p-3">
+                                <figure>
+                                    <img src="image/580b57fcd9996e24bc43c1bd.png" alt="" height="200" width="200">
+                                    
+                                </figure>
+
+                            </div>
+
+                             <div class="grid-item col-md-4 Sherbet  p-3">
+                                <figure>
+                                    <img src="image/580b57fcd9996e24bc43c1bd.png" alt="" height="200" width="200">
+                                    
+                                </figure>
+
+                            </div>
+
+                            
+
+                        
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        
+
+        
+
+
+    </section>
+
+    
+
+
+
+
+    <!-- ================================item end===================================-->
+
 
 
 
@@ -229,10 +351,10 @@
                         <img src="image/ice/stick1.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
-                        <h3>Ice-cream1</h3>
+                    <div class="content mt-3">
+                        <h3 class="">Ice-cream1</h3>
 
-                        <div class="starts">
+                        <div class="starts mt-3">
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
@@ -242,7 +364,7 @@
 
                         </div>
 
-                        <div class="price">$550</div>
+                        <div class="price ">$550</div>
 
                     </div>
 
@@ -274,7 +396,7 @@
                         <img src="image/ice/stick2.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content m-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -317,7 +439,7 @@
                         <img src="image/ice/stick3.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -361,7 +483,7 @@
                         <img src="image/ice/stick1.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -405,7 +527,7 @@
                         <img src="image/ice/stick2.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -449,7 +571,7 @@
                         <img src="image/ice/stick3.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -503,7 +625,7 @@
                         <img src="image/ice/anna-bratiychuk-3w2AuRZeeSU-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -548,7 +670,7 @@
                         <img src="image/ice/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -591,7 +713,7 @@
                         <img src="image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -635,7 +757,7 @@
                         <img src="image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -679,7 +801,7 @@
                         <img src="image/ice/sheri-silver-5A0O12BIsjY-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -723,7 +845,7 @@
                         <img src="image/ice/slashio-photography-uMYxldWYSZk-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -778,7 +900,7 @@
                         <img src="image/ice/sheri-silver-5A0O12BIsjY-unsplash.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -819,11 +941,11 @@
 
 
                 <div class="category-card item">
-                    <div class="image">
-                        <img src="image/ice/cone/istockphoto-1143594100-612x612.jpg" alt="" height="300" width="300">
+                    <div class="image mt-5">
+                        <img src="image/ice/cone/istockphoto-155283345-612x612.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -863,10 +985,10 @@
 
                 <div class="category-card item">
                     <div class="image">
-                        <img src="image/ice/cone/istockphoto-1148364081-612x612.jpg" alt="" height="300" width="300">
+                        <img src="image/ice/cone/istockphoto-471317762-612x612.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -907,10 +1029,10 @@
 
                 <div class="category-card item">
                     <div class="image">
-                        <img src="image/ice/cone/istockphoto-1153293542-612x612.jpg" alt="" height="300" width="300">
+                        <img src="image/ice/cone/istockphoto-692014228-612x612.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -951,10 +1073,10 @@
 
                 <div class="category-card item">
                     <div class="image">
-                        <img src="image/ice/cone/istockphoto-1154538570-612x612.jpg" alt="" height="300" width="300">
+                        <img src="image/ice/cone/istockphoto-689004346-612x612.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -995,10 +1117,10 @@
 
                 <div class="category-card item">
                     <div class="image">
-                        <img src="image/ice/cone/istockphoto-1173571291-612x612.jpg" alt="" height="300" width="300">
+                        <img src="image/ice/cone/istockphoto-687685938-612x612.jpg" alt="" height="300" width="300">
                     </div>
 
-                    <div class="content">
+                    <div class="content mt-5">
                         <h3>Ice-cream1</h3>
 
                         <div class="starts">
@@ -1221,48 +1343,199 @@
 
     <!--============================== newsletter section ends ===========================-->
 
+    <!--contact-->
+    <section id="contact">
+        <div class="containers">
+            <div class="contactinfo">
+                <div>
+                    <h2>Contact Info</h2>
+                    <ul class="info">
+                        <li><span><img src="image/images/location.png" alt=""></span>
+                            <span>2912 Meadowbrook Road <br>
+                            los angel,<CAnvas>90016</CAnvas></span>
+                        </li>
+
+                        <li><span><img src="image/images/mail.png" alt=""></span>
+                            <span>Lorem@gmail.com</span>
+                        </li>
+
+                        <li><span><img src="image/images/call.png" alt=""></span>
+                            <span>130-345-3409</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="sci">
+                    <li><a href=""><img src="image/images/1.png" alt=""></a></li>
+                    <li><a href=""><img src="image/images/2.png" alt=""></a></li>
+                    <li><a href=""> <img src="image/images/3.png" alt=""></a></li>
+                    <li><a href=""><img src="image/images/4.png" alt=""></a></li>
+
+
+
+
+                </ul>
+
+
+
+
+            </div>
+            <div class="contactform">
+                <h2>send a message</h2>
+                <div class="formbox">
+                    <div class="inputbox w50">
+                        <input type="text" required>
+                        <span>First Name</span>
+                    </div>
+
+                    <div class="inputbox w50">
+                        <input type="text" required>
+                        <span>last Name</span>
+                    </div>
+
+                    <div class="inputbox w50">
+                        <input type="email" required>
+                        <span>Email Address</span>
+                    </div>
+
+                    <div class="inputbox w50">
+                        <input type="text" required>
+                        <span>Mobile Number</span>
+                    </div>
+
+                    <div class="inputbox w10">
+                        <textarea required></textarea>
+                        <span>Write your message here..</span>
+                       
+                    </div>
+
+                    <div class="inputbox w100">
+                        <input type="submit" value="send">
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+    <!--contact end-->
+
     <!--============================== footer section starts ===========================-->
 
-    <section id="footer" class="container-fluid">
-        <div class="row">
-            <div class="col-md-4 text-center brand-info">
-                <a href="#" class="logo"> <i class="fas fa-ice-cream fa-2x"></i>
-                    <h3 style="font-family: Comforter Brush;">icecream parlor</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nisi exercitationem facere ducimus nesciunt maxime natus aspernatur quis numquam eos? Placeat ipsum perferendis facilis totam neque illum! Repellendus, temporibus sequi.</p>
-        
-                </a>
+
+    
+
+
+
+    <footer>
+        <div class="container">
+            <div class="box">
+                <h2>About us</h2>
+                <p>It was popularised in the 1960 with the release of Latest sheets containing Lorem Ipsum
+                    passage.</p>
+                    <a href="#"> <button>Read More </button></a>
+                
             </div>
-
-            <div class="col-md-4 text-center links">
-                <h3>links</h3>
-                <div class="nav-links">
-
-                    <a href="#home">home</a>
-                    <a href="#product">product</a>
-                    <a href="#review">review</a>
-                    <a href="#offer">offer</a>
-                    <a href="#newsletter">newsletter</a>
-
-                </div>
-            </div>
-
-            <div class="col-md-3 text-center follow-us">
-                <h3>follow-us</h3>
-                <div class="follow-us-links">
-
-                    <a href="#">facebook</a>
-                    <a href="#">twitter</a>
-                    <a href="#">instagram</a>
-                    <a href="#">pinterest</a>
+            <div class="box">
+                <h2>Quik Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+                    <li>
+                        <a href="#">Products</a>
+                    </li>
                    
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Gallery</a>
+                    </li>
+                   
+                </ul>
+            </div>
 
+            
+            <div class="box">
+
+                <h2>Follow us</h2>
+              
+                
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./image/facebook.png" alt="" height="30" width="30">
+                                <span>facebook</span>
+                               
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/twitter.png" alt="" height="30" width="30">
+                                <span>twitter</span>
+
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./image/google-plus.png" alt="" height="30" width="30">
+                                <span>google</span>
+
+                                
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" >
+                                <img src="./image/instagram.png" alt="" height="30" width="30">
+                                <span>instagram</span>
+
+                                
+                            </a>
+                        </li>
+                    </ul>
+                
+            </div>
+            <div class="box instagram-api">
+                <h2>Instagram</h2>
+                <div class="post-wrap">
+                    <div>
+                        <img src="./image/ice/lama-roscu-Wpg3Qm0zaGk-unsplash.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/ice/sheri-silver-5A0O12BIsjY-unsplash.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="">
+                    </div>
+                    <div>
+                        <img src="./image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="">
+                        
+                    </div>
+                    <div>
+                        <img src="./image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="">
+                        
+                    </div>
+                    <div>
+                        <img src="./image/ice/sebastian-coman-photography-g65SMAYRZJQ-unsplash.jpg" alt="">
+                        
+                    </div>
                 </div>
             </div>
         </div>
+    </footer>
+    <footer class="copyright">
+        <div>
+            Copyright © 2021 .All rights reserved by <a href="https://www.instagram.com/codersgyan/">icecream pourlar</a>.
+        </div>
+    </footer>
 
-        <div class="credit text-center">&copy; copyright @2021 by <span>icecream-parlor</span></div>
-
-    </section>
+  
 
 
     <!--============================== footer section ends ===========================-->
@@ -1288,6 +1561,10 @@
 
     <!-- custom js-->
     <script src="script.js"></script>
+
+    <!--filter-->
+    <script src="isotope.pkgd.min.js"></script>
+    <script src="jquery-isotope-3.0.4.min.js"></script>
 </body>
 
 </html>
