@@ -1031,7 +1031,8 @@ section #contact{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+
   background: #095a55;
 }
 
@@ -1090,6 +1091,9 @@ section::before{
   margin: 20px 0;
   cursor: pointer;
   align-items: flex-start;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .containers .contactinfo ul.info li span:nth-child(1){
@@ -1189,6 +1193,8 @@ section::before{
   border: none;
   outline: none;
   border-bottom: 1px solid#777;
+  font-size: 15px;
+  font-weight: 400;
 
 }
 
@@ -1204,6 +1210,8 @@ section::before{
   font-size: 18px;
   font-weight: 300;
   transition: 0.3s;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .containers .contactform .formbox .inputbox input:focus ~ span,
@@ -1212,7 +1220,7 @@ section::before{
 .containers .contactform .formbox .inputbox textarea:valid ~ span{
 
   transform: translateY(-20px);
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 400;
   letter-spacing: 1px;
   color: #7f0217;
@@ -1230,7 +1238,7 @@ section::before{
 }
 
 .containers .contactform .formbox .inputbox input[type="submit"]:hover{
-  background: #c2102d;
+  letter-spacing: .5rem;
 }
 
 @media(max-width:1200px){
@@ -1325,10 +1333,12 @@ section::before{
 
 
 footer{
-  background:#fff;
+  background:#eeeaea;
   padding:4rem 0;
+
 }
 footer .container{
+  margin: 0;
   display:flex;
   color:#7f0217;
 }
